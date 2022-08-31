@@ -19,11 +19,7 @@ export default function List({data}) {
       </header>
 
       <ul>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        { data.cards.map( card => <Card key={card.id} data={card} />)}
       </ul>
     </Container>
   )
