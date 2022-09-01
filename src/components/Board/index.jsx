@@ -3,7 +3,7 @@ import produce from 'immer';
 
 import { loadLists } from '../../services/api';
 
-import BoardContext from './const first = useContext(second)';
+import BoardContext from './context';
 
 import List from '../List';
 
